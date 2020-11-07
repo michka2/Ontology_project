@@ -1,0 +1,789 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#"
+     xml:base="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_148f588b_d198_47c1_b7e7_738e6b38a628 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_148f588b_d198_47c1_b7e7_738e6b38a628">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_977825c6_882c_4d6c_9ac7_4875fafd1d06"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_72ecd22a_6e4d_476a_ac22_063dfcc1a132"/>
+        <rdfs:label xml:lang="fr">needs</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_37386455_24d3_4abb_850c_d1ce261f33e3 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_37386455_24d3_4abb_850c_d1ce261f33e3">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_977825c6_882c_4d6c_9ac7_4875fafd1d06"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_14ebcb01_a899_461d_b0c4_7aa430a5ae7e"/>
+        <rdfs:label xml:lang="fr">is_related_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_3816519c_6306_4dfd_8430_3b2094a41ea5 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_3816519c_6306_4dfd_8430_3b2094a41ea5">
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_7f035455_a71c_4d73_89a5_d356120dfc3c"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_72ecd22a_6e4d_476a_ac22_063dfcc1a132"/>
+        <owl:propertyChainAxiom rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_829daeb6_a42c_4d26_8cac_c07dfaa63b46"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_5db86cc9_78d1_4c24_9431_c528830a6dfe"/>
+        </owl:propertyChainAxiom>
+        <rdfs:label xml:lang="fr">contains</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_5db86cc9_78d1_4c24_9431_c528830a6dfe -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_5db86cc9_78d1_4c24_9431_c528830a6dfe">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_72ecd22a_6e4d_476a_ac22_063dfcc1a132"/>
+        <rdfs:label xml:lang="fr">is_rich_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_7f035455_a71c_4d73_89a5_d356120dfc3c -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_7f035455_a71c_4d73_89a5_d356120dfc3c">
+        <rdfs:label xml:lang="fr">is_contained_in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_829daeb6_a42c_4d26_8cac_c07dfaa63b46 -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_829daeb6_a42c_4d26_8cac_c07dfaa63b46">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+        <rdfs:label xml:lang="fr">is_composed_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#Hair_loss_problem -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#Hair_loss_problem">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_575da0c5_c4a9_4850_9835_dc1bd7590fa1"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_148f588b_d198_47c1_b7e7_738e6b38a628"/>
+                <owl:allValuesFrom>
+                    <owl:Class>
+                        <owl:intersectionOf rdf:parseType="Collection">
+                            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#VitaminB"/>
+                            <owl:Restriction>
+                                <owl:onProperty rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_7f035455_a71c_4d73_89a5_d356120dfc3c"/>
+                                <owl:allValuesFrom rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_672ed161_e090_4c20_8b7a_e6bb38ab67b6"/>
+                            </owl:Restriction>
+                        </owl:intersectionOf>
+                    </owl:Class>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_026aa7bd_d48f_4329_a455_dc42e98ead1e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_026aa7bd_d48f_4329_a455_dc42e98ead1e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_72ecd22a_6e4d_476a_ac22_063dfcc1a132"/>
+        <rdfs:label xml:lang="fr">MineralSalt</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_03849369_1f34_4eea_91e1_2d3c0b15bd5a -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_03849369_1f34_4eea_91e1_2d3c0b15bd5a">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ff2b17f7_7023_4f13_a29e_e2cdb6cfbc7d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_37386455_24d3_4abb_850c_d1ce261f33e3"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_beab5ee0_bec8_4ff2_b1fa_9159975c346d"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Skin_problem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_07c81c55_022c_4d36_866c_81de230df470 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_07c81c55_022c_4d36_866c_81de230df470">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ff2b17f7_7023_4f13_a29e_e2cdb6cfbc7d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_37386455_24d3_4abb_850c_d1ce261f33e3"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_72458708_2d61_41b1_aaa5_2747d9a6245b"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_37386455_24d3_4abb_850c_d1ce261f33e3"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_bc039ad2_82a8_4bd3_8e34_65eb04c76aaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Muscles_problem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_0f7d9b6a_381d_4d2d_b1a9_9f298eec1aff -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_0f7d9b6a_381d_4d2d_b1a9_9f298eec1aff">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+        <rdfs:label xml:lang="fr">Dried_fruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_1246a428_a59a_4a68_93fc_22d90c128792 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_1246a428_a59a_4a68_93fc_22d90c128792">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+        <rdfs:label xml:lang="fr">Meat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_14ebcb01_a899_461d_b0c4_7aa430a5ae7e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_14ebcb01_a899_461d_b0c4_7aa430a5ae7e">
+        <rdfs:label xml:lang="fr">Body_part</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_16374792_25bb_4542_a8b9_9241a482d1c1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_16374792_25bb_4542_a8b9_9241a482d1c1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        <rdfs:label xml:lang="fr">Mouth_trick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7">
+        <rdfs:label xml:lang="fr">Aliment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_29a13625_c4e0_40f4_804a_ec548e2f8dab -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_29a13625_c4e0_40f4_804a_ec548e2f8dab">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ff2b17f7_7023_4f13_a29e_e2cdb6cfbc7d"/>
+        <rdfs:label xml:lang="fr">Mouth_problem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_30f424ff_a9c3_4fc6_bdbd_866ad7b4fdc6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_30f424ff_a9c3_4fc6_bdbd_866ad7b4fdc6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_026aa7bd_d48f_4329_a455_dc42e98ead1e"/>
+        <rdfs:label xml:lang="fr">Iron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_35b38b55_0527_4732_9135_3f44fb8d16ca -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_35b38b55_0527_4732_9135_3f44fb8d16ca">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ff2b17f7_7023_4f13_a29e_e2cdb6cfbc7d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_37386455_24d3_4abb_850c_d1ce261f33e3"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_0926ccd2_38f6_40ff_8cc8_520f5a2d3c3f"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Throat_ache</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_3bf7baaf_7563_4bc4_b764_8af108053a32 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_3bf7baaf_7563_4bc4_b764_8af108053a32">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ff2b17f7_7023_4f13_a29e_e2cdb6cfbc7d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_37386455_24d3_4abb_850c_d1ce261f33e3"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_da204537_764a_47ed_aad9_7ac09918f3bf"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Nails_problem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_4d7c0338_ca2f_49b2_973e_9a7561d18ec7 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_4d7c0338_ca2f_49b2_973e_9a7561d18ec7">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+        <rdfs:label xml:lang="fr">Vegetables</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_575da0c5_c4a9_4850_9835_dc1bd7590fa1 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_575da0c5_c4a9_4850_9835_dc1bd7590fa1">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ff2b17f7_7023_4f13_a29e_e2cdb6cfbc7d"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLObjectProperty_37386455_24d3_4abb_850c_d1ce261f33e3"/>
+                <owl:hasValue rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_c268c260_62bb_4a7c_b356_f222f0d3b7c6"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="fr">Hair_problem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_5888a944_44af_432e_a9ce_a6326e858482 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_5888a944_44af_432e_a9ce_a6326e858482">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_72ecd22a_6e4d_476a_ac22_063dfcc1a132"/>
+        <rdfs:label xml:lang="fr">Vitamin</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_672ed161_e090_4c20_8b7a_e6bb38ab67b6 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_672ed161_e090_4c20_8b7a_e6bb38ab67b6">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        <rdfs:label xml:lang="fr">Hair_trick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_72ecd22a_6e4d_476a_ac22_063dfcc1a132 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_72ecd22a_6e4d_476a_ac22_063dfcc1a132">
+        <rdfs:label xml:lang="fr">Nutrient</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_75fc797d_7be2_4232_94bd_1804fde6211b -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_75fc797d_7be2_4232_94bd_1804fde6211b">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        <rdfs:label xml:lang="fr">Throat_trick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7815aa6b_7ec0_4a47_888a_ff7b08c87ec0 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7815aa6b_7ec0_4a47_888a_ff7b08c87ec0">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        <rdfs:label xml:lang="fr">Nails_trick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7c100c97_de4f_448b_b0fc_1d018025f528 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7c100c97_de4f_448b_b0fc_1d018025f528">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+        <rdfs:label xml:lang="fr">Fruits</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7f94624d_4cb8_421b_8283_7564462364be -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7f94624d_4cb8_421b_8283_7564462364be">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+        <rdfs:label xml:lang="fr">Plant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_88bc111d_50b7_48d3_b414_1b93ecb6afaa -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_88bc111d_50b7_48d3_b414_1b93ecb6afaa">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_14ebcb01_a899_461d_b0c4_7aa430a5ae7e"/>
+        <rdfs:label xml:lang="fr">Trunk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_96bb5e14_0775_4e09_a5c5_1146b3fb4459 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_96bb5e14_0775_4e09_a5c5_1146b3fb4459">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_14ebcb01_a899_461d_b0c4_7aa430a5ae7e"/>
+        <rdfs:label xml:lang="fr">Neck</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_977825c6_882c_4d6c_9ac7_4875fafd1d06 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_977825c6_882c_4d6c_9ac7_4875fafd1d06">
+        <rdfs:label xml:lang="fr">Symptom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810">
+        <rdfs:label xml:lang="fr">Trick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_b60382c1_1066_4245_bc09_5936877e9366 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_b60382c1_1066_4245_bc09_5936877e9366">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        <rdfs:label xml:lang="fr">Muscles_trick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_cd14e72c_5f54_4db5_afdf_240a9b57b071 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_cd14e72c_5f54_4db5_afdf_240a9b57b071">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_026aa7bd_d48f_4329_a455_dc42e98ead1e"/>
+        <rdfs:label xml:lang="fr">Potassium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_d3b75478_d58a_4af4_b103_8cb3cf159661 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_d3b75478_d58a_4af4_b103_8cb3cf159661">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+        <rdfs:label xml:lang="fr">Sea_food</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_d3b7c8e4_0ab3_4194_8acb_88e912e7794f -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_d3b7c8e4_0ab3_4194_8acb_88e912e7794f">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_026aa7bd_d48f_4329_a455_dc42e98ead1e"/>
+        <rdfs:label xml:lang="fr">Zinc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_db1008c4_d61f_4a52_bb4c_5152e214c265 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_db1008c4_d61f_4a52_bb4c_5152e214c265">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_026aa7bd_d48f_4329_a455_dc42e98ead1e"/>
+        <rdfs:label xml:lang="fr">Calcium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_dd05a9de_0f17_4fe6_a01a_7f1611556b16 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_dd05a9de_0f17_4fe6_a01a_7f1611556b16">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_14ebcb01_a899_461d_b0c4_7aa430a5ae7e"/>
+        <rdfs:label xml:lang="fr">Limp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ddda5588_81c1_4fb8_b165_f9860ee08b65 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ddda5588_81c1_4fb8_b165_f9860ee08b65">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_026aa7bd_d48f_4329_a455_dc42e98ead1e"/>
+        <rdfs:label xml:lang="fr">Sulfur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_e42d7143_b914_445e_afa1_c0f5f53ef2ac -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_e42d7143_b914_445e_afa1_c0f5f53ef2ac">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_14ebcb01_a899_461d_b0c4_7aa430a5ae7e"/>
+        <rdfs:label xml:lang="fr">Head</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ea9d350a_7a90_4fea_b048_0221549a804e -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ea9d350a_7a90_4fea_b048_0221549a804e">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_026aa7bd_d48f_4329_a455_dc42e98ead1e"/>
+        <rdfs:label xml:lang="fr">Magnesium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_fa23e544_f98b_446e_ae0d_6e1a520ac5b8 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_fa23e544_f98b_446e_ae0d_6e1a520ac5b8">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        <rdfs:label xml:lang="fr">Skin_trick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ff2b17f7_7023_4f13_a29e_e2cdb6cfbc7d -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_ff2b17f7_7023_4f13_a29e_e2cdb6cfbc7d">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_977825c6_882c_4d6c_9ac7_4875fafd1d06"/>
+        <rdfs:label xml:lang="fr">PhysicalSymtom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#VitaminB -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#VitaminB">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_5888a944_44af_432e_a9ce_a6326e858482"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_0926ccd2_38f6_40ff_8cc8_520f5a2d3c3f -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_0926ccd2_38f6_40ff_8cc8_520f5a2d3c3f">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_96bb5e14_0775_4e09_a5c5_1146b3fb4459"/>
+        <rdfs:label xml:lang="fr">Throat</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_0ce11016_d878_44d4_8535_ae348054e93d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_0ce11016_d878_44d4_8535_ae348054e93d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_575da0c5_c4a9_4850_9835_dc1bd7590fa1"/>
+        <rdfs:label xml:lang="fr">Brittle_hair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_0ebd8ef8_3e2a_4ea0_9d0a_2e9e332d4c16 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_0ebd8ef8_3e2a_4ea0_9d0a_2e9e332d4c16">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_5888a944_44af_432e_a9ce_a6326e858482"/>
+        <rdfs:label xml:lang="fr">VitaminC</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_1808134f_690e_4aaf_b2c5_0b048e502623 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_1808134f_690e_4aaf_b2c5_0b048e502623">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_5888a944_44af_432e_a9ce_a6326e858482"/>
+        <rdfs:label xml:lang="fr">VitaminB</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_320d64f2_2773_4293_8e6c_6ea941ca6856 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_320d64f2_2773_4293_8e6c_6ea941ca6856">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_4d7c0338_ca2f_49b2_973e_9a7561d18ec7"/>
+        <OWLObjectProperty_5db86cc9_78d1_4c24_9431_c528830a6dfe rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_1808134f_690e_4aaf_b2c5_0b048e502623"/>
+        <rdfs:label xml:lang="fr">Garlic</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_40b59abf_26a8_4d04_91c4_47e6e373ebe2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_40b59abf_26a8_4d04_91c4_47e6e373ebe2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_575da0c5_c4a9_4850_9835_dc1bd7590fa1"/>
+        <rdfs:label xml:lang="fr">Dundruff_hair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_44393627_b090_4108_8d80_de9606b8b419 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_44393627_b090_4108_8d80_de9606b8b419">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7c100c97_de4f_448b_b0fc_1d018025f528"/>
+        <rdfs:label xml:lang="fr">apple</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_4aac9992_bd12_4aaa_9d95_de3cfdea7476 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_4aac9992_bd12_4aaa_9d95_de3cfdea7476">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_e42d7143_b914_445e_afa1_c0f5f53ef2ac"/>
+        <rdfs:label xml:lang="fr">Nose</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_50e9f9c4_0fef_4b4d_9731_61d752a0c376 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_50e9f9c4_0fef_4b4d_9731_61d752a0c376">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_672ed161_e090_4c20_8b7a_e6bb38ab67b6"/>
+        <rdfs:label xml:lang="fr">Dundruff_hair_trick</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_5745bee4_f701_4c08_b469_6d4699c57dda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_5745bee4_f701_4c08_b469_6d4699c57dda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7c100c97_de4f_448b_b0fc_1d018025f528"/>
+        <rdfs:label xml:lang="fr">kiwi</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_6b2d41a7_ac8b_46e0_afb9_155f29273e5b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_6b2d41a7_ac8b_46e0_afb9_155f29273e5b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_672ed161_e090_4c20_8b7a_e6bb38ab67b6"/>
+        <OWLObjectProperty_829daeb6_a42c_4d26_8cac_c07dfaa63b46 rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_320d64f2_2773_4293_8e6c_6ea941ca6856"/>
+        <OWLObjectProperty_829daeb6_a42c_4d26_8cac_c07dfaa63b46 rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_cc08a207_061d_463b_8bee_84e512418e1a"/>
+        <rdfs:label xml:lang="fr">Hairloss_trick</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_72458708_2d61_41b1_aaa5_2747d9a6245b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_72458708_2d61_41b1_aaa5_2747d9a6245b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_dd05a9de_0f17_4fe6_a01a_7f1611556b16"/>
+        <rdfs:label xml:lang="fr">Upper_limp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_9b8e50fd_f6d2_4c89_b1a7_cff0701f2696 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_9b8e50fd_f6d2_4c89_b1a7_cff0701f2696">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7c100c97_de4f_448b_b0fc_1d018025f528"/>
+        <rdfs:label xml:lang="fr">Banana</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_a1f183f5_17db_4e1e_90eb_2af2d0b909fb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_a1f183f5_17db_4e1e_90eb_2af2d0b909fb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_5888a944_44af_432e_a9ce_a6326e858482"/>
+        <rdfs:label xml:lang="fr">VitaminE</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_a8c94aeb_f422_4a81_98bd_7d1c704535ab -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_a8c94aeb_f422_4a81_98bd_7d1c704535ab">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_3bf7baaf_7563_4bc4_b764_8af108053a32"/>
+        <rdfs:label xml:lang="fr">White_stained_nails</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_b1da4db3_87d6_4778_9e3e_2f0a73207737 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_b1da4db3_87d6_4778_9e3e_2f0a73207737">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_3bf7baaf_7563_4bc4_b764_8af108053a32"/>
+        <rdfs:label xml:lang="fr">Brittle_nails</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_b3b7010e_ba41_4eee_9e71_b7318715d319 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_b3b7010e_ba41_4eee_9e71_b7318715d319">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_e42d7143_b914_445e_afa1_c0f5f53ef2ac"/>
+        <rdfs:label xml:lang="fr">Mouth</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_bc039ad2_82a8_4bd3_8e34_65eb04c76aaa -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_bc039ad2_82a8_4bd3_8e34_65eb04c76aaa">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_dd05a9de_0f17_4fe6_a01a_7f1611556b16"/>
+        <rdfs:label xml:lang="fr">Lower_limp</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_beab5ee0_bec8_4ff2_b1fa_9159975c346d -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_beab5ee0_bec8_4ff2_b1fa_9159975c346d">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_88bc111d_50b7_48d3_b414_1b93ecb6afaa"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_96bb5e14_0775_4e09_a5c5_1146b3fb4459"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_dd05a9de_0f17_4fe6_a01a_7f1611556b16"/>
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_e42d7143_b914_445e_afa1_c0f5f53ef2ac"/>
+        <rdfs:label xml:lang="fr">Skin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_c268c260_62bb_4a7c_b356_f222f0d3b7c6 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_c268c260_62bb_4a7c_b356_f222f0d3b7c6">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_e42d7143_b914_445e_afa1_c0f5f53ef2ac"/>
+        <rdfs:label xml:lang="fr">Hair</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_cc08a207_061d_463b_8bee_84e512418e1a -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_cc08a207_061d_463b_8bee_84e512418e1a">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7c100c97_de4f_448b_b0fc_1d018025f528"/>
+        <rdfs:label xml:lang="fr">Olive_Oil</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_da204537_764a_47ed_aad9_7ac09918f3bf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_da204537_764a_47ed_aad9_7ac09918f3bf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_dd05a9de_0f17_4fe6_a01a_7f1611556b16"/>
+        <rdfs:label xml:lang="fr">Nails</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_e137d2b2_f6e3_4245_a4fe_3f1d6d733f4b -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_e137d2b2_f6e3_4245_a4fe_3f1d6d733f4b">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_29a13625_c4e0_40f4_804a_ec548e2f8dab"/>
+        <rdfs:label xml:lang="fr">Mouth_ulcer</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_e268fce0_7ad8_4cbd_be69_63f42c48b511 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_e268fce0_7ad8_4cbd_be69_63f42c48b511">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_575da0c5_c4a9_4850_9835_dc1bd7590fa1"/>
+        <OWLObjectProperty_148f588b_d198_47c1_b7e7_738e6b38a628 rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_1808134f_690e_4aaf_b2c5_0b048e502623"/>
+        <rdfs:label xml:lang="fr">Hair_loss</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_ed1a325f_57c7_47a3_aec3_edcc00774fe8 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_ed1a325f_57c7_47a3_aec3_edcc00774fe8">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_03849369_1f34_4eea_91e1_2d3c0b15bd5a"/>
+        <rdfs:label xml:lang="fr">Dry_skin</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_ee0438ec_bc7c_4e93_bfcd_74287d11b0cf -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_ee0438ec_bc7c_4e93_bfcd_74287d11b0cf">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_5888a944_44af_432e_a9ce_a6326e858482"/>
+        <rdfs:label xml:lang="fr">VitaminA</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_f357e4e7_ebc9_472a_8796_2c9e8aee0f78 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_f357e4e7_ebc9_472a_8796_2c9e8aee0f78">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7c100c97_de4f_448b_b0fc_1d018025f528"/>
+        <rdfs:label xml:lang="fr">orange</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_f9eaf9dd_f6f3_45ca_bebe_a3c6c399a671 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLNamedIndividual_f9eaf9dd_f6f3_45ca_bebe_a3c6c399a671">
+        <rdf:type rdf:resource="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_03849369_1f34_4eea_91e1_2d3c0b15bd5a"/>
+        <rdfs:label xml:lang="fr">Acne</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_14ebcb01_a899_461d_b0c4_7aa430a5ae7e"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_24dd6061_3527_4f0d_9aee_c2d2dabcb3b7"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_72ecd22a_6e4d_476a_ac22_063dfcc1a132"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_977825c6_882c_4d6c_9ac7_4875fafd1d06"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_97eaab32_ce3c_4a7b_90ee_b01e7027f810"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_16374792_25bb_4542_a8b9_9241a482d1c1"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_672ed161_e090_4c20_8b7a_e6bb38ab67b6"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_75fc797d_7be2_4232_94bd_1804fde6211b"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_7815aa6b_7ec0_4a47_888a_ff7b08c87ec0"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_b60382c1_1066_4245_bc09_5936877e9366"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/wiem/ontologies/2020/9/GrandmaTricks-ontology-9#OWLClass_fa23e544_f98b_446e_ae0d_6e1a520ac5b8"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
